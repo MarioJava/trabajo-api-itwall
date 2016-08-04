@@ -1,4 +1,6 @@
-package com.itwall.util;
+package com.itwall.example;
+
+import com.itwall.util.ConnMySql;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
