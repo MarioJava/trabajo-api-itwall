@@ -12,7 +12,7 @@ public class ConnMySql {
     private static String user;
     private static String password;
 
-    public ConnMySql() {
+    static {
         driver = ConstantsConnexionEnum.DRIVER.getConstResponse();
         url = ConstantsConnexionEnum.URL.getConstResponse() + ConstantsConnexionEnum.BD.getConstResponse();
         user = ConstantsConnexionEnum.USER.getConstResponse();
