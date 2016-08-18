@@ -18,7 +18,7 @@ public class JdbcDeleteDemo {
             String sql = "DELETE FROM tb_persona_proyecto WHERE id_persona=?";
 
             PreparedStatement statement = conn.prepareStatement(sql);
-            statement.setInt(1, 3);
+            statement.setInt(1, 26);
 
             int rowsDeleted = statement.executeUpdate();
             if (rowsDeleted > 0) {
